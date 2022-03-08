@@ -1,0 +1,249 @@
+@media (max-width: 479px) {
+    
+    .title {
+        font-size: 26px;
+        line-height: 30px;
+        margin-bottom: 23px;
+    }
+    .contacts_items {
+        column-count: 1;
+        margin-bottom: 22px;
+    }
+    .map_wrap {
+        height: 241px;
+    }
+    :root {
+        --font_size_title_big: 26px;
+        --font_size_title: 20px;
+    }
+    .header_wrap {
+        flex-direction: column;
+    }
+    .header_contacts {
+        align-items: flex-start;
+        margin-left: 0;
+        margin-right: auto;
+    }
+    .header_logo {
+        max-width: 100%;
+        width: 100%;
+    }
+    .header_contacts-time {
+        text-align: start;
+    }
+    .header_contacts-phones {
+        margin-top: 18px;
+    }
+    .header_title sup {
+        font-size: 18px;
+    }
+    .header_wrap {
+        margin-bottom: 25px;
+    }
+    .header_title {
+        margin-bottom: 18px;
+    }
+    .header_subtitle,
+    .header_text {
+        font-size: 18px;
+    }
+    .header_mode br {
+        display: block;
+    }
+    .benefits_list {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .benefits_list li {
+        margin-bottom: 15px;
+    }
+    .benefits_list li:first-child img {
+        width: 38px;
+        height: 42px;
+    }
+    .benefits_list li:nth-child(2) img {
+        width: 54px;
+        height: 40px;
+    }
+    .benefits_list li:last-child img {
+        width: 45px;
+        height: 50px;
+    }
+    .benefits_list-icon {
+        width: 73px;
+    }
+    .benefits {
+        padding: 341px 0 42px;
+        margin-top: -312px;
+    }
+    .tabs_box {
+        flex-direction: column;
+    }
+    .tabs button, 
+    .tabs button.active {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .tabs button + button {
+        margin-left: 0px;
+        margin-top: 8px;
+    }
+    .tabs_box {
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+    .tab_content .tabs button.active, .tab_content .tabs button {
+        margin: 20px 15px 0;
+    }
+    .tabs {
+        margin: 0px auto 19px;
+    }
+    .tab_content .tabs {
+        justify-content: center;
+    }
+    .catalog_item-descr {
+        padding: 23px 21px 28px;
+    }
+    .field_box {
+        flex-direction: column;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .callback_form .line .field_box .field {
+        margin-right: 0px;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 8px;
+    }
+    .callback_form .line .field input {
+        width: 100%;
+        max-width: 100%;
+    } 
+    .catalog_item-title {
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 20px;
+    }
+    .catalog_item-discount {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .delivery_title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .delivery {
+        margin-top: 0px;
+        padding-bottom: 58px;
+        padding-top: 58px;
+    }
+    .discount .callback_form .line .field {
+        width: 100%;
+    }
+    .discount .callback_form .line .field input {
+        width: 100%;
+    }
+    .field_box {
+        width: 100%;
+    }
+    .discount .callback_form .line .field {
+        margin-bottom: 8px;
+    }
+    .callback_form .line .submit_btn {
+        margin: 0 auto;
+    }
+    .calling .callback_form .line .submit_btn {
+        width: 100%;
+    }
+    .footer_logo {
+        text-align: center;
+    }
+    .footer_bg {
+        left: -839px;
+    }
+    .discount .callback_form .line .submit_btn {
+        width: 100%;
+        max-width: 100%;
+        margin-right: 0;
+        margin-top: 0;
+    }
+    .discount .callback_form .checkbox {
+        margin-top: 10px;
+    }
+    .catalog_item .btn {
+        height: 49px;
+    }
+    .callback_form .line .submit_btn,
+    .questions_btn {
+        width: 100%;
+        max-width: 100%;
+    }
+    .contacts_item-text {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .contacts_item-title {
+        font-size: 14px;
+    }
+    .contacts_item-info {
+        margin-bottom: 17px;
+    }
+    .contacts_item-phone {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .contacts_items {
+        margin-bottom: 8px;
+    }
+    .discount_subtitle {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 18px;
+    }
+    .discount .callback_form-text {
+        max-width: 263px;
+        line-height: 20px;
+        font-size: 16px;
+    }
+    .discount_list li {
+        font-size: 16px;
+        line-height: 29px;
+    }
+    .discount {
+        padding-top: 150px;
+        padding-bottom: 36px;
+    }
+    .calling {
+        padding-bottom: 5px;
+        padding-top: 80px;
+    }
+    .contacts {
+        padding-top: 95px;
+    }
+    .questions_subtitle {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 18px;
+    }
+    .questions {
+        padding: 66px 0 47px;
+    }
+    footer {
+        padding: 121px 0 34px;
+    }
+    .gallery_item:last-child {
+        margin-bottom: 0;
+    }
+    
+    
+
+
+
+
+
+
+    
+    
+
+}

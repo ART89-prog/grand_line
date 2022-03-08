@@ -1,0 +1,338 @@
+@media (max-width: 749px){      
+ 
+    .title {
+        font-size: 34px;
+        line-height: 48px;
+        margin-bottom: 26px;
+    }
+    .popover-content {
+        display: none;
+    }
+    .contacts_items {
+       display: block !important;
+       column-count: 2;
+       margin-bottom: 43px;
+    }
+    .contacts_item-info {
+        margin-bottom: 24px;
+    }
+    .contacts_item-title {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #767c83;   
+    }
+    .contacts_item-text {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #1a1d1c;
+    }
+    .contacts_item-phone {
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 700;
+        color: #1a1d1c;
+        text-decoration: none;   
+    }
+    .contacts_item-email {
+        text-decoration: underline;
+        color: #198dae;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 300;
+    }
+    .header_logo img {
+        width: 181px;
+    }
+    .header_mode {
+        font-size: 14px;
+        line-height: 16px;  
+    }
+    .header_contacts-time {
+        font-size: 13px;
+        line-height: 24px;  
+    }
+    .header_contacts-phone {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .header_wrap .btn {
+        width: 146px;
+        height: 30px;
+    } 
+    :root {
+        --font_size_title_big: 38px;
+        --font_size_title: 34px;
+    }
+    .header_title sup {
+        font-size: 21px;
+    }
+    .header_subtitle {
+        font-size: 22px;
+        line-height: 22px;
+        margin-bottom: 16px;
+    }
+    .header_text {
+        font-size: 22px;
+        line-height: 27px;
+        margin-bottom: 31px;
+    }
+    .submit_btn-left {
+        width: 216px;
+        height: 49px;
+    }
+    .submit_btn-right {
+        width: 216px;
+        height: 49px;
+    }
+    .benefits_list {
+        flex-direction: column;
+    }
+    .benefits_list li {
+        flex-direction: row;
+        width: 100%;
+        text-align: start;
+    }
+    .benefits_list li:first-child {
+        margin-top: 0px;
+    }
+    .benefits_list li:last-child {
+        margin-top: 0px;
+    }
+    .benefits_list li span {
+        margin-top: 0px;
+    }
+    .benefits_list-icon {
+        width: 100px;
+        flex-shrink: 0;
+    }
+    .benefits {
+        padding: 341px 0 71px;
+        margin-top: -307px;
+    }
+    .catalog {
+        padding: 48px 0 23px;
+    }
+    .tabs button, .tabs button.active {
+        padding: 21px 16px;
+        height: 41px;
+        width: 48%;
+    }
+    .tab_content .tabs button.active,
+    .tab_content .tabs button {
+        height: 0;
+        padding: 0 0 12px 0;
+        width: auto;
+    }
+    .tabs {
+        flex-direction: column;
+    }
+    .tabs_box {
+        margin-bottom: 13px;
+    }
+    .tabs button {
+        margin: 0 auto;
+    }
+    .tab_content .tabs {
+        flex-direction: row;
+    }
+    .catalog_items {
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .catalog_items > * {
+        width: 100%;
+        margin-left: 0;
+    }
+    .catalog_item-title {
+        margin-bottom: 17px;
+    }
+    .catalog_item-descr {
+        padding: 27px 47px 30px;
+    }
+    .callback_form .line .field input {
+        width: 216px;
+        height: 49px;
+    }
+    .callback_form .line .submit_btn {
+        width: 236px;
+        height: 49px;
+    }
+    label.checkbox {
+        font-size: 14px;
+    }
+    .callback_form .checkbox {
+        margin-top: 26px;
+    }
+    .delivery_title {
+        font-size: 20px;
+        line-height: 24px; 
+    }
+    .discount_subtitle {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .discount_list li {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .discount_list li::after {
+        top: 6px;
+    }
+    .discount_list {
+        margin-bottom: 26px;
+    }
+    .discount .callback_form .line .field input {
+        width: 216px;
+    }
+    .discount .callback_form .line .submit_btn {
+        width: 166px;
+    }
+    .discount {
+        margin-bottom: 49px;
+    }
+    .gallery_items {
+        margin-left: 0;
+    }
+    .gallery_items > * {
+        width: 100%;
+        margin-bottom: 37px;
+        margin-left: 0;
+    }
+    .gallery_item-title {
+        margin-top: 17px;
+    }
+    .gallery_item-text {
+        margin-top: 6px;
+    }
+    .calling {
+        background-position: 51% 0px;
+    }
+    .calling .callback_form .line .submit_btn {
+        max-width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        display: block;
+        width: 166px;
+    }
+    .field_box {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .callback_form .line .field {
+        margin-right: 0px;
+    }
+    .callback_form .line .field_box .field {
+        margin-right: 14px;
+    }
+    .reviews {
+        padding-top: 40px;
+    }
+    .calling {
+        padding-bottom: 63px;
+        padding-top: 92px;
+    }
+    .reviews_item {
+        padding: 0;
+    }
+    .reviews_item-text {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .map_wrap {
+        height: 341px;
+    }
+    .questions_form-wrap {
+        flex-direction: column;
+    }
+    .questions_form input {
+        width: 100%;
+        height: 49px;
+        margin-bottom: 7px;
+    }
+    .questions_form textarea {
+        width: 100%;
+        height: 100px;
+        margin-left: 0;
+        margin-top: 7px;
+    }
+    .questions_btn {
+        width: 156px;
+        height: 49px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 12px;
+    }
+    .footer_wrap {
+        align-items: center;
+        margin-left: 0;
+    }
+    .footer_phone-time {
+        text-align: center;
+        margin-bottom: 9px;
+    }
+    .footer_mode {
+        display: none;
+    }
+    .footer_copy {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 275px;
+        text-align: center;
+        margin-top: 51px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .footer_bg {
+        left: -788px;
+        bottom: -59%;
+    } 
+    .questions .checkbox {
+        margin-left: 0;
+    }
+    .questions {
+        padding: 90px 0 74px;
+        margin-top: 5px;
+    }
+    .reviews_items {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    
+
+        
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

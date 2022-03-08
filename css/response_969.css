@@ -1,0 +1,301 @@
+@media (max-width: 1400px){
+    .footer_bg {
+        left: -823px;
+        bottom: -12%;
+    }
+    .questions_bg {
+        right: -811px;
+        bottom: -51%;
+    }
+
+}
+
+
+@media (max-width: 1100px){
+    .header_logo {
+        flex-direction: column;
+        max-width: 280px;
+        flex-shrink: 0;
+    }
+    .header_mode {
+        margin-left: 0;
+        margin-top: 17px;
+    }
+    .header_mode br {
+        display: none;
+    }
+    
+}
+
+
+
+@media (max-width: 1023px){
+    .header_contacts {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .header_contacts-phones {
+        margin-right: 0px;
+    }
+    .header_contacts-phone {
+        margin-bottom: 6px;
+    }
+    .reviews_item {
+        flex-direction: column;
+        align-items: center;
+    }
+    .reviews_item-description {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .questions_bg {
+        display: none;
+    }
+    .gallery_items > * {
+        width: calc(100%/3 - 30px);
+        margin-bottom: 48px;
+    }
+    .header_wrap {
+        margin-bottom: 40px;
+    }
+    .catalog {
+        padding: 70px 0 23px;
+    }
+    .catalog_title {
+        margin-bottom:45px;
+    }
+    .tabs {
+        margin: 0 auto 30px;
+    }
+    .tab_content .tabs {
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .tab_content .tabs button {
+        margin-top: 20px;
+    }
+    .gallery_items {
+        margin-bottom: 0;
+    }
+    :root {
+    --font_size_title_big: 48px;
+    --font_size_title: 37px;
+    }
+    .title {
+        margin-bottom: 50px;
+    }
+    .questions_form textarea {
+        width: 435px;
+    }
+    .benefits_list li br {
+        display: none;
+    }
+
+
+}
+
+
+@media (max-width: 969px){
+    .discount {
+        margin-bottom: 60px;
+        margin-top: -220px;
+        padding-bottom: 71px;
+    }
+    .header_wrap .btn {
+        height: 39px;
+    }
+    .header_title sup {
+        font-size: 26px;
+    }
+    :root {
+        --font_size_title_big: 44px;
+        --font_size_title: 33px;
+    }
+    .header_content .form {
+        display: flex;
+        flex-direction: column;
+    }
+    .submit_btn-right {
+        margin-left: 0;
+        margin-top: 12px;
+    }
+    header {
+        padding: 33px 0 154px;
+    }
+    .benefits_list li {
+        flex-direction: column;
+    }
+    .benefits_list li:first-child {
+        margin-top: -40px;
+    }
+    .benefits_list li:nth-child(2) {
+        margin-top: 0px;
+    }
+    .benefits_list li:last-child {
+        margin-right: 0px;
+        margin-top: -40px;
+    }
+    .benefits_list li span {
+        padding-left: 0px;
+        margin-top: 18px;
+    }
+    .benefits_list li {
+        text-align: center;
+    }
+    .tabs button,
+    .tabs button.active {
+        font-size: 15px;
+        padding: 21px 26px;
+        height: 49px;
+    }
+    .title {
+        margin-bottom: 34px;
+    }
+    .tab_content .tabs button {
+        height: 0px;
+        padding: 0 0 15px 0;
+        font-size: 15px;
+    }
+    .catalog_items > * {
+        width: calc(100%/2 - 30px);
+    }
+    .catalog_item-title {
+        margin-bottom: 30px;
+    }
+    .delivery {
+        margin-top: 40px;
+        padding-bottom: 79px;
+        padding-top: 82px;
+    }
+    .delivery_title {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .callback_form .line {
+        flex-direction: column;
+    }
+    .callback_form .line .submit_btn {
+        max-width: 251px;
+        margin: 11px auto 0;
+        display: block;
+
+    }
+    .callback_form .line .field input {
+        width: 246px;
+    }
+    .discount .callback_form-text {
+        max-width: 350px;
+        line-height: 24px;
+    }
+    .discount .callback_form .line {
+        align-items: start;
+    }
+    .discount .callback_form .line .submit_btn {
+        margin-right: auto;
+        margin-left: 0;
+        margin-top: 18px;
+    }
+    .discount_list li {
+        font-size: 22px;
+    }
+    .discount_subtitle {
+        font-size: 26px;
+        line-height: 36px;
+        margin-bottom: 22px;
+    }
+    .gallery_item-title {
+        margin-top: 27px;
+    }
+    .gallery_items > * {
+        width: calc(100%/2 - 30px);
+    }
+    .calling_content {
+        max-width: 506px;
+    }
+    .calling {
+        background-position: 37% 0px;
+    }
+    .calling .callback_form .line .submit_btn {
+        max-width: 251px;
+        margin-right: auto;
+        margin-left: 0;
+        display: block;
+    }
+    .calling .callback_form .checkbox {
+        width: 100%;
+    }
+    .reviews {
+        padding-top: 62px;
+    }
+    .reviews_items .slick-arrow {
+        top: calc(100% + 60px);
+    }
+    .reviews_items .slick-prev {
+        left: calc(50% - 165px);
+    }
+    .reviews_items .slick-next {
+        right: calc(50% - 165px);
+    }
+    .questions .checkbox {
+        margin-left: -50px;
+    }
+    .questions_btn {
+        margin-left: 24px;
+    }
+    .footer_phone {
+        display: block !important;
+        margin-top: 28px;
+    }
+    .footer_phone-time {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #727374;
+    }
+    .footer_phone-time span {
+        color: #ffffff;
+    }
+    .footer_phone-number {
+        font-size: 30px;
+        line-height: 24px;
+        font-weight: 500;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .footer_wrap {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 11px;
+        margin-left: 127px;
+    }
+    .footer_mode {
+        margin-left: 0;
+    }
+    .footer_mode br {
+        display: none;
+    }
+    .footer_mode {
+        margin-top: 17px;
+    }
+    .footer_copy {
+        margin-left: 127px;
+    }
+    .footer_bg {
+        left: -708px;
+    }
+    .questions {
+        padding: 109px 0 105px;
+        margin-top: 20px;
+    }
+
+
+
+
+
+
+}
+
+ 
+
+

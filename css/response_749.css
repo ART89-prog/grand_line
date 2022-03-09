@@ -196,9 +196,6 @@
         display: block;
         width: 166px;
     }
-    .field_box {
-        width: 100%;
-    }
     .calling .callback_form .line .field input {
         width: 100%;
     }

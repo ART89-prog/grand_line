@@ -188,7 +188,9 @@
         max-width: 251px;
         margin: 11px auto 0;
         display: block;
-
+    }
+    .delivery .callback_form .line .submit_btn {
+        width: 320px;
     }
     .callback_form .line .field input {
         width: 246px;

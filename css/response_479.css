@@ -138,6 +138,9 @@
         padding-bottom: 58px;
         padding-top: 58px;
     }
+    .delivery .callback_form .line .submit_btn {
+        width: 100%;
+    }
     .discount .callback_form .line .field {
         width: 100%;
     }

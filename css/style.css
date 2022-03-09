@@ -1398,10 +1398,10 @@ input[type=checkbox]:checked + label.checkbox:after {
   z-index: 1;
 }
 .questions_bg {
-  position: absolute;
-  right: -710px;
-  bottom: -51%;
-  z-index: 1;
+position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
 }
 .questions_title {
   margin-bottom: 21px;
@@ -1483,11 +1483,11 @@ input[type=checkbox]:checked + label.checkbox:after {
 
 footer {
   background: url(../image/footer_bg.png);
-  background-position: center;
-  background-size: cover;
-  padding: 150px 0 60px;
-  margin-top: -94px;
-  position: relative;
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0 40px;
+    margin-top: -94px;
+    position: relative;
 }
 .footer_wrap {
   display: flex;
@@ -1510,10 +1510,10 @@ footer {
   color: #727374;
 }
 .footer_bg {
-  position: absolute;
-  left: -710px;
-  bottom: -78%;
-  z-index: 1;
+position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
 }
 
 

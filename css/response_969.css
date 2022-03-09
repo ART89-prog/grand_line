@@ -1,7 +1,7 @@
 @media (max-width: 1400px){
     .footer_bg {
-        left: -823px;
-        bottom: -12%;
+        left: -128px;
+        bottom: 0;
     }
     .questions_bg {
         right: -811px;
@@ -293,7 +293,7 @@
         margin-left: 127px;
     }
     .footer_bg {
-        left: -708px;
+        left: -75px;
     }
     .questions {
         padding: 109px 0 105px;

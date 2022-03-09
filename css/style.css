@@ -1877,3 +1877,246 @@ position: absolute;
   padding-top: 170px;
   z-index: 0;
 }
+
+
+
+
+
+
+/* CARD POPUP */
+
+.card {
+  padding: 50px 42px 15px;
+  width: 1140px;
+  max-width: 100%;
+  border-radius: 6px;
+}
+.modal_top {
+  display: flex;
+}
+.modal_img {
+  padding: 39px;
+  position: relative;
+  border: 1px solid #e7ebee;
+  border-radius: 6px;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 46px;
+}
+.modal_img img {
+  aspect-ratio: 4/3;
+}
+.modal_description {
+  margin-top: -5px;
+}
+.modal_description-title {
+  font-family: 'Euclid Circular A';
+  font-size: 34px;
+  line-height: 38px;
+  font-weight: 300;
+  color: #1a1d1c;
+  margin-bottom: 15px;
+}
+.modal_description-subtitle {
+  font-family: 'Euclid Circular A';
+  font-size: 18px;
+  line-height: 38px;
+  font-weight: 700;
+  color: #1a1d1c; 
+  margin-bottom: 9px;
+}
+.modal_description-subtitle span {
+  color: #df5f20;
+}
+.modal_thickness {
+  display: flex;
+}
+.modal_thickness-title {
+  font-family: 'Euclid Circular A';
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #1a1d1c; 
+  width: 192px;
+  flex-shrink: 0;
+}
+.modal_thickness ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.modal_thickness ul li {
+  position: relative;
+  font-family: 'Euclid Circular A';
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #1a1d1c; 
+  padding: 0 9px;
+}
+.modal_thickness ul li::after {
+  position: absolute;
+  content: "|";
+  font-family: 'Euclid Circular A';
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #bbc8d1;
+  right: -3px;
+}
+.modal_thickness ul li:last-child::after {
+  display: none;
+}
+.card .modal_top .form {
+  margin-top: 23px;
+}
+.card .modal_top .form .submit_btn-left {
+  max-width: 306px;
+  width: 100%;
+  font-size: 15px;
+  height: 49px;
+}
+.card .modal_top .form .submit_btn-right {
+  margin-left: 20px;
+  font-size: 15px;
+  height: 49px;
+}
+.characteristic {
+  padding: 22px 33px 33px;
+  border: 1px solid #e7ebee;
+  border-radius: 6px;
+  margin-top: 31px;
+}
+.characteristic_title {
+  font-family: 'Euclid Circular A';
+  font-size: 20px;
+  line-height: 38px;
+  font-weight: 300;
+  color: #1a1d1c;
+  margin-bottom: 12px;
+}
+.characteristic_list {
+  column-count: 2;
+  list-style: none;
+  column-gap: 40px;
+}
+.characteristic_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.characteristic_list-name {
+  margin-right: -1%;
+  width: 73%;
+  vertical-align: middle;
+  overflow: hidden;
+  display: inline-block;
+  font-family: 'Euclid Circular A';
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #7a8083; 
+}
+.characteristic_list-name:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  margin: 0 -99% 0 3px;
+  vertical-align: baseline;
+  border-bottom: 1px dotted #939b9f;
+}
+.characteristic_list-value {
+  font-family: 'Euclid Circular A';
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #1a1d1c;
+}
+.characteristic_priz {
+  font-family: 'Euclid Circular A';
+  font-size: 15px;
+  line-height: 16px;
+  font-weight: 700;
+  color: #1a1d1c; 
+  margin-top: 16px;
+}
+.modal_advantages {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 50px;
+}
+.modal_advantages li {
+  display: flex;
+  align-items: center;
+}
+.advantages-icon {
+  margin-right: 17px;
+}
+.color_box {
+  display: flex;
+  align-items: flex-start;  
+  margin-top: 48px;
+}
+.color_title {
+  font-family: 'Euclid Circular A';
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 300;
+  color: #1a1d1c;
+  max-width: 120px;
+  flex-shrink: 0;
+  margin-right: 52px;
+}
+.color_list {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% - 180px);
+  list-style: none;
+}
+.color_list span {
+  width: 36px;
+  height: 31px;  
+  border-radius: 6px; 
+  display: block;
+}
+.color_list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 13px;
+}
+.color_list li {
+  margin-right: 13px;
+}
+.color_list li:last-child {
+  margin-right: 0px;
+}
+.color_name {
+  font-family: 'Euclid Circular A';
+  font-size: 11px;
+  line-height: 21px;
+  font-weight: 300;
+  color: #1a1d1c;
+  margin-top: 4px; 
+  white-space: nowrap;
+}
+
+
+.fancybox-slide--html .fancybox-close-small {
+  color: #000;
+  top: 0;
+  right: 0;
+  width: 29px;
+  height: 29px;
+  padding: 10px;
+  transition: color .2s linear;
+  opacity: 1;
+  padding: 3px;
+  background-color: #fad31a;
+  border-bottom-left-radius: 6px;
+  border-top-right-radius: 6px;
+}

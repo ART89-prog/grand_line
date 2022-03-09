@@ -7,14 +7,18 @@
         right: -811px;
         bottom: -51%;
     }
-
 }
 
+@media (max-width: 1200px){
+    .calling_content {
+        max-width: 735px;
+    }    
+}
 
 @media (max-width: 1100px){
     .header_logo {
         flex-direction: column;
-        max-width: 280px;
+        max-width: 247px;
         flex-shrink: 0;
     }
     .header_mode {
@@ -91,7 +95,12 @@
     .benefits_list li br {
         display: none;
     }
-
+    .profnastil .header_text {
+        max-width: 440px;
+    }
+    .profnastil .header_text br {
+        display: none;
+    }
 
 }
 

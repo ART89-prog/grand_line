@@ -3,6 +3,18 @@ $(() => {
 	$('input[type=tel]').inputmask('+7 (999) 999-99-99')
 
 
+  // Ленивая загрузка
+  setTimeout(() => {
+    observer = lozad('.lozad', {
+      rootMargin: '200px 0px',
+      threshold: 0,
+      loaded: (el) => el.classList.add('loaded')
+    })
+
+    observer.observe()
+  }, 200)
+
+
 	$('body').on('click', '.modal_link', function (e) {
 	    e.preventDefault()
 
@@ -150,8 +162,6 @@ $(() => {
 
 		$('html, body').stop().animate({ scrollTop: $activeTabContent.offset().top }, 1000)
 	}
-
-
 
 
 

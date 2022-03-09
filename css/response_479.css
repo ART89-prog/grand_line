@@ -195,6 +195,10 @@
     }
     .contacts_items {
         margin-bottom: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
     .discount_subtitle {
         font-size: 18px;
@@ -214,7 +218,8 @@
         padding-top: 150px;
         padding-bottom: 36px;
     }
-    .calling {
+    .calling,
+    .profnastil .calling {
         padding-bottom: 5px;
         padding-top: 80px;
     }
@@ -235,6 +240,10 @@
     .gallery_item:last-child {
         margin-bottom: 0;
     }
+    .profnastil .header_text {
+        max-width: 240px;
+    }
+    
     
     
 

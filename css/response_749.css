@@ -5,42 +5,21 @@
         line-height: 48px;
         margin-bottom: 26px;
     }
-    .popover-content {
-        display: none;
-    }
     .contacts_items {
-       display: block !important;
-       column-count: 2;
-       margin-bottom: 43px;
+        position: relative;
+        z-index: 1;
+        column-count: 2;
+        column-gap: 15px;
+        padding: 0;
+        background: none;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        margin-bottom: 15px;
     }
     .contacts_item-info {
-        margin-bottom: 24px;
-    }
-    .contacts_item-title {
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 300;
-        color: #767c83;   
-    }
-    .contacts_item-text {
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 300;
-        color: #1a1d1c;
-    }
-    .contacts_item-phone {
-        font-size: 20px;
-        line-height: 28px;
-        font-weight: 700;
-        color: #1a1d1c;
-        text-decoration: none;   
-    }
-    .contacts_item-email {
-        text-decoration: underline;
-        color: #198dae;
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 300;
+        margin-bottom: 20px;
     }
     .header_logo img {
         width: 181px;
@@ -93,6 +72,7 @@
         flex-direction: row;
         width: 100%;
         text-align: start;
+        margin-bottom: 18px;
     }
     .benefits_list li:first-child {
         margin-top: 0px;
@@ -184,7 +164,7 @@
         margin-bottom: 26px;
     }
     .discount .callback_form .line .field input {
-        width: 216px;
+        width: 100%;
     }
     .discount .callback_form .line .submit_btn {
         width: 166px;
@@ -217,8 +197,10 @@
         width: 166px;
     }
     .field_box {
-        margin-right: auto;
-        margin-left: auto;
+        width: 100%;
+    }
+    .calling .callback_form .line .field input {
+        width: 100%;
     }
     .callback_form .line .field {
         margin-right: 0px;
@@ -229,7 +211,8 @@
     .reviews {
         padding-top: 40px;
     }
-    .calling {
+    .calling,
+    .profnastil .calling {
         padding-bottom: 63px;
         padding-top: 92px;
     }
@@ -287,6 +270,7 @@
     .footer_bg {
         left: -788px;
         bottom: -59%;
+        z-index: 0;
     } 
     .questions .checkbox {
         margin-left: 0;
@@ -299,19 +283,12 @@
         margin-left: 0;
         margin-right: 0;
     }
+    .profnastil .header_text {
+        max-width: 300px;
+    }
 
-    
+            
 
-        
-
-
-
-
-
-
-
-
-    
     
     
     

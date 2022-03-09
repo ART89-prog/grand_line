@@ -896,7 +896,6 @@ header {
 }
 .callback_form .line .field input {
   height: 59px;
-  width: 286px;
   background-color: #ffffff;
   border-radius: 6px;
   font-family: var(--font_family);
@@ -909,7 +908,7 @@ header {
   border: 1px solid #ccd2d5;
 }
 .callback_form .line .submit_btn {
-  width: 286px;
+  width: 196px;
   height: 59px;
   background-color: #fad31a;
   border-radius: 6px;
@@ -1111,7 +1110,7 @@ input[type=checkbox]:checked + label.checkbox:after {
 .gallery_item img {
   position: relative;
   width: 100%;
-  height: 192px;
+  aspect-ratio: 4/3;
   object-fit: cover;
   border-radius: 6px;
 }
@@ -1150,7 +1149,7 @@ input[type=checkbox]:checked + label.checkbox:after {
 /* CALLING START */
 
 .calling { 
-  background: url(../image/calling_bg.png);
+  background: url(../image/calling_bg.jpg);
   background-position: center 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1255,6 +1254,49 @@ input[type=checkbox]:checked + label.checkbox:after {
 
 .contacts {
   padding-top: 120px;
+}
+.contacts_box {
+  position: relative;
+}
+.contacts_items {
+  position: absolute;
+  top: 69px;
+  left: 69px;
+  z-index: 1;
+  width: 370px;
+  height: 447px;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px 30px 26px 39px;
+}
+.contacts_item-info {
+  margin-bottom: 15px;
+}
+.contacts_item-title {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #767c83;   
+}
+.contacts_item-text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #1a1d1c;
+}
+.contacts_item-phone {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #1a1d1c;
+  text-decoration: none;   
+}
+.contacts_item-email {
+  text-decoration: underline;
+  color: #198dae;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
 }
 .map_wrap {
   position: relative;
@@ -1381,6 +1423,7 @@ input[type=checkbox]:checked + label.checkbox:after {
   max-width: 926px;
   width: 100%;
   margin: 0 auto;
+  z-index: 2;
 }
 .questions_form-wrap {
   display: flex;
@@ -1794,7 +1837,12 @@ footer {
 }
 
 
-
+.popover-content {
+  display: none;
+}
+.popover .close {
+  display: none;
+}
 
 
 
@@ -1803,10 +1851,29 @@ footer {
 .profnastil header {
   background: url(../image/header_bg2.png);
   padding: 33px 0 138px;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .profnastil .profnast .catalog_item-img img {
   width: 254px;
   height: 252px;
   margin: 0 auto;
   display: block;
+}
+.profnastil .discount {
+  background: url(../image/discount_bg2.jpg);
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.profnastil .calling {
+  background: url(../image/calling_bg2.jpg);
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 100px;
+  padding-top: 170px;
+  z-index: 0;
 }

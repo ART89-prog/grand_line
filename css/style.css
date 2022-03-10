@@ -1905,9 +1905,6 @@ position: absolute;
   justify-content: center;
   margin-right: 46px;
 }
-.modal_img img {
-  aspect-ratio: 4/3;
-}
 .modal_description {
   margin-top: -5px;
 }

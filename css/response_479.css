@@ -248,6 +248,32 @@
     }
     
     
+
+
+    .modal_img {
+        padding: 0;
+    }
+    .color_list li {
+        margin-right: 13px;
+        width: 15%;
+    }
+    .modal_description-title {
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .modal_description-subtitle {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .card {
+        padding: 31px 16px;
+    }
+    .modal_advantages {
+        font-size: 14px;
+        line-height: 16px;   
+    }
     
 
 

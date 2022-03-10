@@ -274,6 +274,10 @@
         font-size: 14px;
         line-height: 16px;   
     }
+    .card .modal_top .form .submit_btn-left,
+    .card .modal_top .form .submit_btn-right {
+        max-width: 100%;
+    }
     
 
 

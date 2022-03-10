@@ -284,7 +284,19 @@
         max-width: 300px;
     }
 
-            
+
+    .modal_advantages {
+        margin-top: 22px;
+    }
+    .modal_advantages li br {
+        display: none;
+    }
+    .color_box {
+        flex-direction: column;
+    }
+    .color_list {
+        width: 100%;
+    }
 
     
     
@@ -292,7 +304,16 @@
 }
 
     
-
+@media (max-width: 640px){
+    .modal_advantages {
+        margin-left: 0px;
+    }
+    .modal_advantages > * {
+        margin-left: 0px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}  
 
 
 

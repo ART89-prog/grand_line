@@ -28,6 +28,19 @@
     .header_mode br {
         display: none;
     }
+
+
+    .modal_description-title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .modal_img {
+        padding: 10px;
+        margin-right: 30px;
+    }    
+    .modal_thickness {
+        flex-direction: column;
+    }
     
 }
 
@@ -100,6 +113,18 @@
     }
     .profnastil .header_text br {
         display: none;
+    }
+
+    .card .modal_top .form {
+        display: flex;
+        flex-direction: column;
+    }
+    .card .modal_top .form .submit_btn-right {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .characteristic_list {
+        column-count: 1;
     }
 
 }
@@ -300,6 +325,38 @@
         margin-top: 20px;
     }
 
+
+    .card {
+        padding: 30px 35px 15px;
+    }
+    .modal_advantages {
+        margin-top: 22px;
+        margin-left: -20px;
+    }
+    .modal_advantages > * {
+        margin-left: 20px;
+        width: calc(100%/2 - 20px);
+        margin-bottom: 20px;
+    }
+    .modal_top {
+        flex-direction: column;
+    }
+    .modal_img {
+        padding: 0px;
+        margin-right: 0px;
+        border: none;
+    }
+    .characteristic {
+        padding: 0;
+        border: none;
+        margin-top: 18px;
+    }
+    .color_title {
+        margin-right: 20px;
+    }
+    .color_box {
+        margin-top: 20px;
+    }
 
 
 

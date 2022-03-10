@@ -1221,6 +1221,7 @@ input[type=checkbox]:checked + label.checkbox:after {
   display: block;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 .reviews_item-description {
   margin-left: 34px;
@@ -1730,7 +1731,7 @@ position: absolute;
 }
 .fancybox-image, 
 .fancybox-spaceball  {
-  border-radius: 20px;
+  border-radius: 6px;
 }
 
 
@@ -1921,7 +1922,7 @@ position: absolute;
 .modal_description-subtitle {
   font-family: 'Euclid Circular A';
   font-size: 18px;
-  line-height: 38px;
+  line-height: 27px;
   font-weight: 700;
   color: #1a1d1c; 
   margin-bottom: 9px;
@@ -2032,6 +2033,7 @@ position: absolute;
   line-height: 24px;
   font-weight: 300;
   color: #1a1d1c;
+  white-space: nowrap;
 }
 .characteristic_priz {
   font-family: 'Euclid Circular A';
@@ -2047,6 +2049,12 @@ position: absolute;
   justify-content: space-between;
   list-style: none;
   margin-top: 50px;
+  margin-left: -20px;
+  flex-wrap: wrap;
+}
+.modal_advantages > * {
+  margin-left: 20px;
+  width: calc(100%/4 - 20px);
 }
 .modal_advantages li {
   display: flex;
@@ -2103,6 +2111,9 @@ position: absolute;
   color: #1a1d1c;
   margin-top: 4px; 
   white-space: nowrap;
+}
+.modal_img img {
+  width: 100%;
 }
 
 

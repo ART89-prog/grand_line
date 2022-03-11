@@ -839,7 +839,8 @@ header {
   font-size: 15px;
   line-height: 21px;
   font-weight: 300;
-  color: #1a1c1d
+  color: #1a1c1d;
+  padding: 0 10px;
 }
 .catalog_item .btn:hover {
   color: #fff;
@@ -930,6 +931,9 @@ header {
 .discount .callback_form .line .submit_btn {
   width: 100%;
   max-width: 196px;
+}
+.delivery .callback_form .line .submit_btn {
+  width: 285px;
 }
 .callback_form .checkbox {
   width: auto;

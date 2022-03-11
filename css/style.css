@@ -2123,8 +2123,9 @@ position: absolute;
   padding: 10px;
   transition: color .2s linear;
   opacity: 1;
-  padding: 3px;
+  padding: 3px !important;
   background-color: #fad31a;
   border-bottom-left-radius: 6px;
   border-top-right-radius: 6px;
 }
+

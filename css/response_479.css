@@ -246,6 +246,9 @@
     .profnastil .header_text {
         max-width: 240px;
     }
+    .fancybox-slide {
+        padding: 5px;
+      }
     
     
 

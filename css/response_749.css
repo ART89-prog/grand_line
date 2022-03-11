@@ -326,6 +326,9 @@
         max-width: 306px;
         width: 100%;
     }
+    .fancybox-slide {
+        padding: 10px;
+      }
 
     
     

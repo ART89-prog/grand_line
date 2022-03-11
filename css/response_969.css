@@ -359,7 +359,10 @@
         width: 61px;
         margin-right: 14px;
     }
-
+    .submit_btn-right {
+        margin-left: 0;
+        margin-top: 15px;
+    }
 
 
 

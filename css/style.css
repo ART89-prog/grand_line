@@ -670,7 +670,7 @@ header {
   margin-right: 17px;
 }
 .tabs button {
-  font-family: 'Euclid Circular A';
+  font-family: var(--font_family);
   font-size: 16px;
   line-height: 24px;
   font-weight: 300;
@@ -786,7 +786,7 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: var(--font_family);
-  font-size: 15px;
+  font-size: var(--font_size);
   line-height: 21px;
   font-weight: 300;
   color: #ffffff;
@@ -822,7 +822,7 @@ header {
   text-align: center;
 }
 .catalog_item-discount {
-  font-size: 15px;
+  font-size: var(--font_size);
   line-height: 24px;
   font-weight: 300;
   color: var(--text_color);
@@ -836,7 +836,7 @@ header {
   width: 100%;
   height: 59px;
   font-family: var(--font_family);
-  font-size: 15px;
+  font-size: var(--font_size);
   line-height: 21px;
   font-weight: 300;
   color: #1a1c1d;
@@ -1555,8 +1555,8 @@ position: absolute;
   position: relative;
 }
 .modal .modal_title {
-  font-size: 29px;
-  line-height: 36px;
+  font-size: 28px;
+  line-height: 34px;
   font-weight: 700;
   color: #25272b;
   margin-bottom: 15px;
@@ -1913,7 +1913,7 @@ position: absolute;
   margin-top: -5px;
 }
 .modal_description-title {
-  font-family: 'Euclid Circular A';
+  font-family: var(--font_family);
   font-size: 34px;
   line-height: 38px;
   font-weight: 300;
@@ -1921,7 +1921,7 @@ position: absolute;
   margin-bottom: 15px;
 }
 .modal_description-subtitle {
-  font-family: 'Euclid Circular A';
+  font-family: var(--font_family);
   font-size: 18px;
   line-height: 27px;
   font-weight: 700;
@@ -1935,7 +1935,7 @@ position: absolute;
   display: flex;
 }
 .modal_thickness-title {
-  font-family: 'Euclid Circular A';
+  font-family: var(--font_family);
   font-size: 15px;
   line-height: 24px;
   font-weight: 700;
@@ -1950,7 +1950,7 @@ position: absolute;
 }
 .modal_thickness ul li {
   position: relative;
-  font-family: 'Euclid Circular A';
+  font-family: var(--font_family);
   font-size: 15px;
   line-height: 24px;
   font-weight: 300;
@@ -1960,8 +1960,8 @@ position: absolute;
 .modal_thickness ul li::after {
   position: absolute;
   content: "|";
-  font-family: 'Euclid Circular A';
-  font-size: 15px;
+  font-family: var(--font_family);
+  font-size: var(--font_size);
   line-height: 24px;
   font-weight: 300;
   color: #bbc8d1;
@@ -1976,12 +1976,12 @@ position: absolute;
 .card .modal_top .form .submit_btn-left {
   max-width: 306px;
   width: 100%;
-  font-size: 15px;
+  font-size: var(--font_size);
   height: 49px;
 }
 .card .modal_top .form .submit_btn-right {
   margin-left: 20px;
-  font-size: 15px;
+  font-size: var(--font_size);
   height: 49px;
 }
 .characteristic {
@@ -1991,7 +1991,7 @@ position: absolute;
   margin-top: 31px;
 }
 .characteristic_title {
-  font-family: 'Euclid Circular A';
+  font-family: var(--font_family);
   font-size: 20px;
   line-height: 38px;
   font-weight: 300;
@@ -2010,12 +2010,12 @@ position: absolute;
 }
 .characteristic_list-name {
   margin-right: -1%;
-  width: 73%;
+  width: 72%;
   vertical-align: middle;
   overflow: hidden;
   display: inline-block;
-  font-family: 'Euclid Circular A';
-  font-size: 15px;
+  font-family: var(--font_family);
+  font-size: var(--font_size);
   line-height: 20px;
   font-weight: 300;
   color: #7a8083; 
@@ -2029,16 +2029,16 @@ position: absolute;
   border-bottom: 1px dotted #939b9f;
 }
 .characteristic_list-value {
-  font-family: 'Euclid Circular A';
-  font-size: 15px;
+  font-family: var(--font_family);
+  font-size: var(--font_size);
   line-height: 24px;
   font-weight: 300;
   color: #1a1d1c;
   white-space: nowrap;
 }
 .characteristic_priz {
-  font-family: 'Euclid Circular A';
-  font-size: 15px;
+  font-family: var(--font_family);
+  font-size: var(--font_size);
   line-height: 16px;
   font-weight: 700;
   color: #1a1d1c; 
@@ -2070,7 +2070,7 @@ position: absolute;
   margin-top: 48px;
 }
 .color_title {
-  font-family: 'Euclid Circular A';
+  font-family: var(--font_family);
   font-size: 16px;
   line-height: 18px;
   font-weight: 300;
@@ -2105,7 +2105,7 @@ position: absolute;
   margin-right: 0px;
 }
 .color_name {
-  font-family: 'Euclid Circular A';
+  font-family: var(--font_family);
   font-size: 11px;
   line-height: 21px;
   font-weight: 300;
@@ -2133,3 +2133,106 @@ position: absolute;
   border-top-right-radius: 6px;
 }
 
+
+
+
+/* Вкладка комплектующие */
+
+.accessories_title {
+  font-family: var(--font_family);
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #1a1d1c;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.accessories_subtitle {
+  font-family: var(--font_family);
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #848c8f;
+  text-align: center;
+}
+.accessories_items {
+  margin-left: -40px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 51px;
+  margin-bottom: -75px;
+}
+.accessories_items > * {
+  width: calc(100%/2 - 40px);
+  margin-left: 40px;
+  margin-bottom: 75px;
+}
+.accessories_item {
+  display: flex;
+}
+.accessories_item ul {
+  list-style: none;
+}
+.accessories_item ul li {
+  position: relative;
+  font-family: var(--font_family);
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 300;
+  color: #1a1d1c;
+  padding-left: 19px;
+}
+.accessories_item ul li:before {
+  position: absolute;
+  content: "";
+  width: 7px;
+  height: 7px;
+  background: #fad31a;
+  top: 50%;
+  left: 0;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+.accessories_item-img {
+  width: 191px;
+  flex-shrink: 0;
+  margin-right: 32px;
+}
+.accessories_item-img img {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+.accessories_item-title {
+  font-family: var(--font_family);
+  font-size: 23px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #1a1d1c;
+  margin-bottom: 23px;
+}
+.accessories .callback_form {
+  margin-top: 120px; 
+}
+.accessories .callback_form-text {
+  font-family: var(--font_family);
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: 500;
+  color: #1a1d1c;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.accessories .line {
+  max-width: 676px;
+}
+.accessories .field {
+  width: 246px;
+}
+.accessories .field input {
+  width: 246px;
+}
+.accessories .line .submit_btn {
+  width: 146px;
+}

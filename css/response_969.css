@@ -363,6 +363,33 @@
         margin-left: 0;
         margin-top: 15px;
     }
+    .accessories_item {
+        flex-direction: column;
+    }
+    .accessories_item-img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .accessories .line .submit_btn {
+        width: 250px;
+    }
+    .accessories .callback_form-text br {
+        display: none;
+    }
+    .accessories .callback_form-text {
+        margin-bottom: 30px;
+        font-size: 27px;
+        line-height: 34px;
+    }
+    .accessories_items > * {
+        margin-bottom: 35px;
+    }
+    .accessories_title br {
+        display: none;
+    }
+    .accessories_title {
+        margin-bottom: 22px;
+    }
 
 
 

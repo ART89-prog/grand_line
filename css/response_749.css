@@ -351,6 +351,29 @@
     .color_box {
         margin-top: 29px;
     }
+    .accessories_items > * {
+        width: 100%;
+    }
+    .accessories_item {
+        flex-direction: row;
+    }
+    .accessories_item-img {
+        margin-right: 20px;
+    }
+    .accessories .callback_form-text {
+        margin-bottom: 25px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .accessories .callback_form {
+        margin-top: 70px;
+    }
+    .accessories_item-title {
+        font-size: 20px;
+        line-height: 21px;
+        margin-bottom: 14px;
+    }
+
     
 }  
 
